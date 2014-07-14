@@ -132,6 +132,22 @@
                   title:    "Integrated Services Digital Broadcasting",
                   href:     "http://dibeg.org/",
               }
+              "ISDB-SUB": {
+                  title:    "Data Coding and Transmission Specification for Digital Broadcasting ARIB STANDARD ARIB STD-B24 VOLUME 1 Part 3 Coding of Caption and Superimpose Contents",
+                  href:     "http://www.arib.or.jp/english/html/overview/doc/6-STD-B24v5_2-1p3-E1.pdf",
+                  publisher:  "Association of Radio Industries and Businesses",
+                  deliveredBy:  [
+                      "http://www.arib.or.jp/english/"
+                  ]
+              }
+              "ISDB-SI": {
+                  title:    "SERVICE INFORMATION FOR DIGITAL BROADCASTING SYSTEM ARIB STANDARD ARIB STD-B10",
+                  href:     "http://www.arib.or.jp/english/html/overview/doc/6-STD-B10v4_6-E2.pdf",
+                  publisher:  "Association of Radio Industries and Businesses",
+                  deliveredBy:  [
+                      "http://www.arib.or.jp/english/"
+                  ]
+              }
           }
 
 };
@@ -385,6 +401,11 @@
           </tr>
           <tr>
             <th>ISDB</th>
+            <td>
+              <ul>
+                 <li>a ISDB subtitle component [[ISDB-SUB]] as identified by a 'data component descriptor' [[ISDB-SI]] in the 'Elementary Stream Descriptors' in the PMT entry for a stream with a 'stream_type' of  "0x05"</li>
+              </ul>
+            </td>
             <td></td>
             <td></td>
             <td></td>
